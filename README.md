@@ -1,6 +1,7 @@
 <h1 style="text-align: center;">ChatBot Entel 📱</h1>
 Este chatbot busca asesorar a clientes de Entel acerca de su catalogo de celulares y planes de manera que puedan encontrar lo que mejor se ajuste a sus necesidades.
 Se usan las siguientes tecnologias:
+
 - LangChain v0.0.294
 - StreamLit v1.24.0
 - ChromaDB v0.4.8
