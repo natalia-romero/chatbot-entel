@@ -46,6 +46,8 @@ El ChatBot está implementado para muchas bases de datos, es por esto que en el 
 
 `` vectorstore = baseDeDatosAUsar()``
 
+El archivo **db.py** cuenta con las funciones de las bases de datos disponibles.
+
 <hr>
 <p style="text-align: center;">© 2023 PalaSolutions</p>
 <hr>
