@@ -38,6 +38,8 @@ Para ejecutarlo por consola:
 
 `` python3 console.py ``
 
+#### StreamLit
+
 Para ejecutarlo por la APP StreamLit:
 
 `` streamlit run stream.py ``
