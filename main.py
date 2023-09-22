@@ -13,9 +13,10 @@ from db import *
 
 load_dotenv()
 
-template = (Path("docs/prompt.txt").read_text()).strip()
-#prompt = ChatPromptTemplate.from_template(template)
-prompt = PromptTemplate.from_template(template)     
+CONDENSE_PROMPT = (Path("docs/condense_prompt.txt").read_text()).strip()
+QA_PROMPT = (Path("docs/prompt.txt").read_text()).strip()
+prompt = ChatPromptTemplate.from_template(QA_PROMPT)
+con_prompt = PromptTemplate.from_template(CONDENSE_PROMPT)     
 
 vectorstore = weaviateDB() #seleccionar db (weaviateDB, chromaDB, pineconeDB o milvusDB)
 
@@ -25,6 +26,6 @@ qa = ConversationalRetrievalChain.from_llm(
     model,
     vectorstore.as_retriever(),
     memory=memory,
-    #combine_docs_chain_kwargs={"prompt": prompt}
-    condense_question_prompt = prompt
+    combine_docs_chain_kwargs={"prompt": prompt},
+    condense_question_prompt = con_prompt
 )

@@ -1,0 +1,6 @@
+Dada la siguiente conversación y la siguiente pregunta, expresa de otra manera la siguiente pregunta de forma que sea una pregunta única.
+
+Conversación:
+{chat_history}
+Pregunta: {question}
+Pregunta única:
