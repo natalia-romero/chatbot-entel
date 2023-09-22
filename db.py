@@ -22,7 +22,7 @@ planes = getDataFrame("docs/planes.csv")
 telefonos = getDataFrame("docs/telefonos.csv")
 
 # CARGAR DOCUMENTOS
-loader = DirectoryLoader('docs/')
+loader = DirectoryLoader('docs/') #  glob="**/*.csv"
 documents = loader.load()
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
 docs = text_splitter.split_documents(documents)
