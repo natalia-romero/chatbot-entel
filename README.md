@@ -21,7 +21,7 @@ Se deben instalar las siguientes dependencias antes de ejecutar el programa (si 
 
 `` pip install sentence_transformers ``
 
-`` pip install sentence_transformers ``
+`` pip install streamlit ``
 
 ### Ejecutar el ChatBot
 
