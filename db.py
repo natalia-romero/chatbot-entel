@@ -12,6 +12,14 @@ from langchain.embeddings.sentence_transformer import SentenceTransformerEmbeddi
 from langchain.vectorstores import Chroma
 from langchain.vectorstores import Weaviate
 from dotenv import load_dotenv
+
+#Milivus
+from langchain.text_splitter import CharacterTextSplitter
+from langchain.vectorstores import Milvus
+from langchain.vectorstores import Pinecone
+from langchain.document_loaders import TextLoader
+import pinecone
+
 load_dotenv()
 
 # LEER ARCHIVOS CSV
@@ -42,12 +50,32 @@ def chromaDB(): #BASE DE DATOS CHROMA
     db = Chroma.from_documents(docs, embeddings)
     return db
 
-# def milvusDB(): #BASE DE DATOS MILVUS
-#     #conexion y return de la db
+def milvusDB(): #BASE DE DATOS MILVUS
+    db = Milvus.from_documents(
+    docs,
+    embeddings,
+    connection_args={"host": "127.0.0.1", "port": "19530"},
+    )
+    return db
 
-# def pineConeDB(): #BASE DE DATOS PINECONE
-#     #conexion y return de la db
-
+def pineconeDB(): #BASE DE DATOS PINECONE
+    pinecone.init(
+        api_key=os.getenv("PINECONE_API_KEY"),  # find at app.pinecone.io
+        environment=os.getenv("PINECONE_ENV"),  # next to api key in console
+    )
+    index = 'chatbot'
+    indexes = pinecone.list_indexes()
+    if index not in indexes:
+        pinecone.create_index(
+            name=index,
+            metric="cosine",
+            dimension=1536)
+        db = Pinecone.from_documents(docs, embeddings, index_name=index)
+    else:
+        db = Pinecone.from_existing_index(index, embeddings)
+    return db
+pineconeDB()
+#conexion y return de la db
 
 
 

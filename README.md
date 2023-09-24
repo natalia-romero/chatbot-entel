@@ -24,6 +24,9 @@ Se deben instalar las siguientes dependencias antes de ejecutar el programa (si 
 
 `` pip install streamlit ``
 
+`` pip install pymilvus ``
+
+`` pip install pinecone-client openai tiktoken langchain``
 ### Ejecutar el ChatBot
 
 En primer lugar, antes de ejecutar el ChatBot se deben agregar las api_key necesarias en el archivo .env, por lo que se debe ejecutar el siguiente comando para crear el archivo y  añadir las credenciales:
