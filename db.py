@@ -5,6 +5,7 @@ import weaviate
 __import__('pysqlite3')
 # se usa modulo pysqlite3 para el uso de chroma
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+import chromadb
 from langchain.document_loaders import DirectoryLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings.openai import OpenAIEmbeddings
@@ -43,11 +44,24 @@ def weaviateDB(): #BASE DE DATOS WEAVIATE
         url=os.environ['WEAVIATE-URL'],
         auth_client_secret=weaviate.AuthApiKey(api_key= os.environ['WEAVIATE-API-KEY']), 
     )
-    db = Weaviate.from_documents(docs, embeddings, client=client, by_text=False)
+    if client.data_object.get()['objects'] != []:
+        data = []
+    else:
+        data = docs
+    db = Weaviate.from_documents(data, embeddings, client=client, by_text=False)
+    print(client.data_object.get())
     return db
 
 def chromaDB(): #BASE DE DATOS CHROMA
-    db = Chroma.from_documents(docs, embeddings)
+    client = chromadb.PersistentClient(path="chroma/")
+    collection = client.get_or_create_collection(name="docs") 
+    print(collection)
+    for doc in docs:
+        collection.add(
+            ids=[str(uuid.uuid1())], metadatas=doc.metadata, documents=doc.page_content
+        )
+    db = Chroma(client=client, collection_name="docs", embedding_function=embeddings)
+    #db = Chroma.from_documents(docs, embeddings)
     return db
 
 def milvusDB(): #BASE DE DATOS MILVUS
