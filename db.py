@@ -1,5 +1,6 @@
 import pandas as pd
 import os
+import uuid
 import sys
 import weaviate
 __import__('pysqlite3')
