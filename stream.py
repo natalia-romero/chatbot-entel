@@ -29,13 +29,14 @@ with container:
         submit_button = st.form_submit_button(label='Enviar')
 
     if submit_button and user_input:
-        output = conversational_chat(user_input)
-        st.session_state['past'].append(user_input)
-        st.session_state['generated'].append(output)
+        with st.spinner(text="Pensando..."):
+            output = conversational_chat(user_input)
+            st.session_state['past'].append(user_input)
+            st.session_state['generated'].append(output)
 
 # Display chat history
 if st.session_state['generated']:
     with response_container:
         for i in range(len(st.session_state['generated'])):
-            st.markdown(message(st.session_state["past"][i], is_user=True, key=str(i) + '_user', avatar_style="big-smile"))
-            st.markdown(message(st.session_state["generated"][i], key=str(i), avatar_style="thumbs"))
+            st.markdown(message(st.session_state["past"][i], is_user=True, key=str(i) + '_user', avatar_style="fun-emoji", seed="Aneka", allow_html=False))
+            st.markdown(message(st.session_state["generated"][i], key=str(i), avatar_style="bottts", seed="Aneka",allow_html=False))
