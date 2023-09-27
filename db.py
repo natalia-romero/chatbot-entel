@@ -41,10 +41,8 @@ telefonos = getDataFrame("docs/telefonos.csv")
 # CARGAR DOCUMENTOS
 loader = DirectoryLoader('docs/', glob="**/*.csv") #  glob="**/*.csv"
 documents = loader.load()
-text_splitter1 = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0) #milvus
-text_splitter2 = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
-docs1 = text_splitter1.split_documents(documents)
-docs2 = text_splitter2.split_documents(documents) #milvus
+text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
+docs = text_splitter.split_documents(documents) #milvus
 embeddings = OpenAIEmbeddings()
 
 # BASES DE DATOS - SE CREA CONEXIÓN Y SE DEBE RETORNAR VECTORSTORE 
@@ -57,7 +55,7 @@ def weaviateDB(): #BASE DE DATOS WEAVIATE
     if client.data_object.get()['objects'] != []:
         data = []
     else:
-        data = docs1
+        data = docs
     db = Weaviate.from_documents(data, embeddings, client=client, by_text=False)
     print(client.data_object.get())
     return db
@@ -66,7 +64,7 @@ def chromaDB(): #BASE DE DATOS CHROMA
     client = chromadb.PersistentClient(path="chroma/")
     collection = client.get_or_create_collection(name="docs") 
     print(collection)
-    for doc in docs1:
+    for doc in docs:
         collection.add(
             ids=[str(uuid.uuid1())], metadatas=doc.metadata, documents=doc.page_content
         )
@@ -76,7 +74,7 @@ def chromaDB(): #BASE DE DATOS CHROMA
 
 def milvusDB(): #BASE DE DATOS MILVUS
     db = Milvus.from_documents(
-    docs2,
+    docs,
     embeddings,
     connection_args={"host": "localhost", "port": "19530"},
     )
@@ -94,7 +92,7 @@ def pineconeDB(): #BASE DE DATOS PINECONE
             name=index,
             metric="cosine",
             dimension=1536)
-        db = Pinecone.from_documents(docs1, embeddings, index_name=index)
+        db = Pinecone.from_documents(docs, embeddings, index_name=index)
     else:
         db = Pinecone.from_existing_index(index, embeddings)
     return db
@@ -102,7 +100,7 @@ def pineconeDB(): #BASE DE DATOS PINECONE
 
 def faissDB(): #BASE DE DATOS FAISS
     os.environ['FAISS_NO_AVX2'] = '1'
-    db = FAISS.from_documents(docs1, embeddings)
+    db = FAISS.from_documents(docs, embeddings)
     return db
 
 
