@@ -21,6 +21,7 @@ from langchain.vectorstores import Milvus
 from langchain.vectorstores import Pinecone
 from langchain.document_loaders import TextLoader
 import pinecone
+from langchain.vectorstores import FAISS
 
 load_dotenv()
 
@@ -34,7 +35,8 @@ telefonos = getDataFrame("docs/telefonos.csv")
 # CARGAR DOCUMENTOS
 loader = DirectoryLoader('docs/', glob="**/*.csv") #  glob="**/*.csv"
 documents = loader.load()
-text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
+text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0) #milvus
+#text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
 docs = text_splitter.split_documents(documents)
 embeddings = OpenAIEmbeddings()
 
@@ -69,7 +71,7 @@ def milvusDB(): #BASE DE DATOS MILVUS
     db = Milvus.from_documents(
     docs,
     embeddings,
-    connection_args={"host": "127.0.0.1", "port": "19530"},
+    connection_args={"host": "localhost", "port": "19530"},
     )
     return db
 
@@ -89,11 +91,15 @@ def pineconeDB(): #BASE DE DATOS PINECONE
     else:
         db = Pinecone.from_existing_index(index, embeddings)
     return db
-pineconeDB()
-#conexion y return de la db
 
 
+def faissDB(): #BASE DE DATOS FAISS
+    os.environ['FAISS_NO_AVX2'] = '1'
+    db = FAISS.from_documents(docs, embeddings)
+    return db
 
+
+milvusDB()
 
 
 
