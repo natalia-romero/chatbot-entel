@@ -60,6 +60,28 @@ def weaviateDB(): #BASE DE DATOS WEAVIATE
     print(client.data_object.get())
     return db
 
+def weaviateDB2(): #BASE DE DATOS WEAVIATE
+    client = weaviate.Client(
+        url=os.environ['WEAVIATE-URL'],
+        auth_client_secret=weaviate.AuthApiKey(api_key= os.environ['WEAVIATE-API-KEY']), 
+    )
+
+    if client.data_object.get()['objects'] != []:
+        data = []
+    else:
+        data = docs
+    
+    db = Weaviate.from_documents(data, embeddings, client=client, by_text=False)
+    
+    print(client.data_object.get())
+    
+    return db
+
+
+
+
+
+
 def chromaDB(): #BASE DE DATOS CHROMA
     client = chromadb.PersistentClient(path="chroma/")
     collection = client.get_or_create_collection(name="docs") 

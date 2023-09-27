@@ -57,6 +57,24 @@ El ChatBot está implementado para muchas bases de datos, es por esto que en el 
 
 El archivo **db.py** cuenta con las funciones de las bases de datos disponibles.
 
+
+
+
+#### Para usarlo con base de datos milvus
+
+Para usar el vector store milvus debemos levantar un docker compose con el servidor milvus, esto se extrae de:
+
+`` wget https://github.com/milvus-io/milvus/releases/download/v2.3.1/milvus-standalone-docker-compose.yml -O docker-compose.yml`` 
+
+
+`` sudo docker compose up -d`` 
+
+página de referencia 
+
+``https://milvus.io/docs/install_standalone-docker.md``
+
 <hr>
 <p style="text-align: center;">© 2023 PalaSolutions</p>
 <hr>
+
+
