@@ -1,14 +1,13 @@
 import streamlit as st
 from streamlit_chat import message
-from langchain.memory import ConversationBufferMemory
-from langchain.chains import (LLMChain, ConversationalRetrievalChain)
+from langchain.chains import ConversationalRetrievalChain
 from langchain.chat_models import ChatOpenAI
 from pathlib import Path
 from langchain.prompts import ChatPromptTemplate
 from langchain.prompts import PromptTemplate
-from langchain.llms import OpenAI
 from dotenv import load_dotenv
 from db import *
+from memory import *
 
 load_dotenv()
 
@@ -17,10 +16,12 @@ QA_PROMPT = (Path("docs/prompt.txt").read_text()).strip()
 prompt = ChatPromptTemplate.from_template(QA_PROMPT)
 con_prompt = PromptTemplate.from_template(CONDENSE_PROMPT)     
 
-vectorstore = pineconeDB() #seleccionar db (weaviateDB, chromaDB, pineconeDB o milvusDB)
+vectorstore = weaviateDB() #seleccionar db (weaviateDB, chromaDB, pineconeDB o milvusDB)
 
-memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
-model = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=0.5)
+memory = CBM() #seleccionar db (CBM, ZM, CBWM o CSBM)
+
+model = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=0.3)
+
 qa = ConversationalRetrievalChain.from_llm(
     model,
     vectorstore.as_retriever(),
