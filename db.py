@@ -99,12 +99,12 @@ def pineconeDB(): #BASE DE DATOS PINECONE
 
 
 def faissDB(): #BASE DE DATOS FAISS
-    os.environ['FAISS_NO_AVX2'] = '1'
+    #os.environ['FAISS_NO_AVX2'] = '1'
     db = FAISS.from_documents(docs, embeddings)
     return db
 
 
-milvusDB()
+faissDB()
 
 
 
