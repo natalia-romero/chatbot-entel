@@ -18,7 +18,7 @@ con_prompt = PromptTemplate.from_template(CONDENSE_PROMPT)
 
 vectorstore = weaviateDB() #seleccionar db (weaviateDB, chromaDB, pineconeDB o milvusDB)
 
-memory = CBM() #seleccionar db (CBM, ZM, CBWM o CSBM)
+memory = CBM() #seleccionar memoria (CBM, ZM, CBWM o CSBM)
 
 model = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=0.3)
 
