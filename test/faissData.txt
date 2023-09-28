@@ -1,0 +1,288 @@
+
+
+
+Memoria faiss:
+
+
+CBM:
+
+// se taimo en la pregunta 9
+
+----------------------------------------------
+¡Bienvenido al ChatBot de Entel!
+----------------------------------------------
+Prompt: Holaa quiero un telefono el cual me permita tomar buenas fotos y que tenga  una pantalla grande
+Answer: ¡Hola! Para tomar buenas fotos y tener una pantalla grande, te recomendaría el **Galaxy S23 Ultra 5G 512GB** de Samsung. Tiene una cámara dual de 200 MP + 10 MP, lo que te permitirá capturar imágenes de alta calidad. Además, cuenta con una pantalla de gran tamaño para disfrutar de tus fotos y contenido multimedia. Puedes encontrar más información sobre este teléfono en el siguiente [enlace](https://www.entel.cl/personas/equipos-y-accesorios/detalle/samsung-galaxy-s23-ultra-5g-512gb). ¿Hay algo más en lo que pueda ayudarte?
+Prompt: pero no quiero que tenga un precio economico entre los 100 mil y 200 mil, no importa si no es phone
+Answer: Claro, puedo recomendarte el **iPhone 8 64GB Seminuevo** de Apple. Este teléfono cuenta con una cámara de 12 MP que te permitirá tomar buenas fotos y una pantalla de 4.7 pulgadas para una experiencia visual agradable. Además, tiene un precio de $179.990 CLP, que se encuentra dentro de tu rango de presupuesto. Puedes encontrar más información sobre este teléfono en el siguiente [enlace](https://www.entel.cl/personas/equipos/detalle/iphone-8-64gb-seminuevo).
+Prompt: me gusta pero ahora si quiero que sea un iphone no importa si se pasa del rango de precios que te dije anteriormente
+Answer: ¡Claro que sí! Basado en tus requisitos de tomar buenas fotos y tener una pantalla grande, te recomendaría el **iPhone 14 Pro Max 1TB**. Este teléfono cuenta con una cámara dual de 48 MP + 12 MP, lo que te permitirá tomar fotos de alta calidad. Además, tiene una pantalla de 67.0 pulgadas, lo cual te brindará una experiencia visual inmersiva. El precio de este teléfono es de $1.884.990 CLP. Puedes encontrar más información sobre este teléfono en el siguiente [enlace](https://www.entel.cl/personas/equipos/detalle/iphone-14-pro-max-1tb).
+Prompt: me sirve pero quiero otras alternativas, dame 3 telefonos similares
+Answer: ¡Claro que sí! Basado en tus requisitos de tomar buenas fotos y tener una pantalla grande, te recomendaría los siguientes teléfonos:
+
+1. **iPhone 14 Pro Max 256GB**:
+   - Marca: Apple
+   - Precio: $1.299.990 CLP
+   - Almacenamiento: 256 GB
+   - Pantalla: 6.7 pulgadas
+   - Cámaras: Dual 48 MP + 12 MP
+   - [Más información](https://www.entel.cl/personas/equipos/detalle/iphone-14-pro-max-256gb)
+
+2. **Samsung Galaxy Z Flip 4 (5G) 256GB**:
+   - Marca: Samsung
+   - Precio: $519.990 CLP
+   - Almacenamiento: 256 GB
+   - Pantalla: 6.7 pulgadas
+   - Cámaras: Dual 12 MP + 12 MP
+   - [Más información](https://www.entel.cl/personas/equipos/detalle/galaxy-z-flip-4-5g-256gb)
+
+3. **Xiaomi 12 5G 256GB**:
+   - Marca: Xiaomi
+   - Precio: $589.990 CLP
+   - Almacenamiento: 256 GB
+   - Pantalla: 6.28 pulgadas
+   - Cámaras: Dual 50 MP + 13 MP
+   - [Más información](https://www.entel.cl/personas/equipos/detalle/xiaomi-12-5g-256gb)
+
+Estos teléfonos ofrecen excelentes capacidades fotográficas y pantallas grandes para que puedas disfrutar de tus fotos y contenido multimedia. Si necesitas más información sobre alguno de ellos, no dudes en preguntar. ¡Estoy aquí para ayudarte!
+Prompt: okay me gusta la primera opcion que me diste, ahora dame un plan que me permita salir del pais por 3 dias 
+Answer: ¡Claro que sí! Para tu viaje al extranjero por 3 días y con tu iPhone 14 Pro Max 256GB, te recomendaría el plan "Plan Entel Libre 3GB" que tiene un costo de $10.990 CLP al mes. Este plan incluye 3GB de navegación, minutos y SMS ilimitados, además de la posibilidad de utilizar roaming internacional en más de 50 países.
+
+Puedes obtener más información sobre este plan y contratarlo en el siguiente enlace: [Plan Entel Libre 3GB](https://www.entel.cl/personas/planes-y-packs/plan-entel-libre-3gb/)
+
+Recuerda que es importante verificar la disponibilidad del servicio de roaming en el país al que viajarás y los costos asociados. ¡Disfruta tu viaje!
+Prompt: es muy caro, dame una opcion mas economica 
+Answer: Claro, puedo ayudarte con eso. Para tu iPhone 14 Pro Max 256GB, te recomendaría el plan "Roaming Internacional 3 días" de Entel. Este plan te brinda cobertura en más de 100 países y te permite utilizar tus datos, hacer llamadas y enviar mensajes de texto mientras estás en el extranjero.
+
+El precio de este plan es de $9.990 CLP por 3 días de uso. Puedes obtener más información y contratarlo en el siguiente enlace: [Plan Roaming Internacional 3 días](https://www.entel.cl/personas/roaming-internacional/)
+
+Recuerda que es importante verificar la cobertura y los costos adicionales en el país al que viajarás antes de utilizar el servicio de roaming. Si tienes alguna otra pregunta, no dudes en hacerla.
+Prompt: me gusta pero quiero uno que junto con el precio del telefono no superen los 300 mil
+Answer: Claro que sí, puedo recomendarte un teléfono y un plan que se ajusten a tu presupuesto. 
+
+Para un teléfono que no supere los 300 mil pesos, te recomendaría el **Telefono Galaxy S22+ 5G 128GB Seminuevo** de la marca Samsung. Tiene un precio de $289.990 CLP y cuenta con un almacenamiento de 128 GB, una pantalla de 6.6 pulgadas y cámaras duales de 50 MP + 12 MP.
+
+En cuanto al plan, te sugiero el **Plan Entel Libre 6GB**. Este plan tiene un costo mensual de $14.990 CLP y te ofrece 6GB de navegación, minutos ilimitados a todo destino y 100 SMS. Puedes encontrar más información sobre este plan en el siguiente [enlace](https://www.entel.cl/personas/planes-y-equipos/plan-libre/).
+
+Con esta combinación, estarías dentro de tu presupuesto y tendrías un teléfono y un plan que se ajustan a tus necesidades. Si tienes alguna otra pregunta, no dudes en hacerla.
+Prompt: cambie de opinion dame un telefono con pantalla paqueña pero que me sirva para jugar juegos de gama alta
+Answer: ¡Claro que sí! Te recomendaría el **iPhone SE 5G 3a generación 128GB** de Apple. Tiene una pantalla de 4.7 pulgadas, lo cual lo hace compacto y fácil de manejar, pero no sacrifica el rendimiento. Este teléfono cuenta con tecnología 5G y un potente procesador, lo que lo hace ideal para jugar juegos de gama alta. Además, tiene un almacenamiento de 128 GB, por lo que tendrás suficiente espacio para descargar tus juegos favoritos. Puedes encontrar más información sobre este teléfono en [este enlace](https://www.entel.cl/personas/equipos/detalle/iphone-se-5g-3a-generacion-128gb).
+Prompt: me gusta, ahora dame un plan que me permita llamar a mis amigos tanto como quiera
+Answer: ¡Claro que sí! En Entel tenemos varios planes que te permiten llamar ilimitadamente a tus amigos. Uno de ellos es el **Plan Libre Roaming Pro**, que tiene un cargo fijo mensual de $14.900 CLP. Este plan incluye llamadas ilimitadas y también datos móviles para que puedas navegar por internet. Puedes encontrar más información sobre este plan en [este enlace](https://www.entel.cl/personas/planes-y-packs/plan-libre-roaming-pro/).
+Prompt: muchas gracias por tu ayuda, me sirvio mucho
+Answer: ¡Claro! Estoy aquí para ayudarte en lo que necesites. Si tienes alguna otra pregunta o necesitas más información, no dudes en decírmelo. Estoy aquí para ayudarte.
+Prompt: exit
+Adiós!
+Tiempos de respuesta:  [6, 7, 9, 18, 9, 9, 11, 10, 7, 3]
+Promedio de respuesta:  8.9
+
+-----------------------------------------------------------
+
+
+ZM:
+
+
+----------------------------------------------
+¡Bienvenido al ChatBot de Entel!
+----------------------------------------------
+Prompt: Holaa quiero un telefono el cual me permita tomar buenas fotos y que tenga  una pantalla grande
+Session fbd6c06d-0d8d-45af-b2b1-e3d5b7f6e0e0 not found in Zep. Returning None
+Answer: ¡Hola! Para tomar buenas fotos y tener una pantalla grande, te recomendaría el **Galaxy S23 Ultra 5G 512GB** de Samsung. Tiene una cámara dual de 200 MP + 10 MP, lo que te permitirá capturar fotos de alta calidad. Además, cuenta con una pantalla grande de 6.8 pulgadas, ideal para disfrutar de tus fotos y contenido multimedia. Puedes encontrar más información sobre este teléfono en [este enlace](https://www.entel.cl/personas/equipos/detalle/samsung-galaxy-s23-ultra-5g-512gb). ¿Hay algo más en lo que pueda ayudarte?
+Prompt: pero no quiero que tenga un precio economico entre los 100 mil y 200 mil, no importa si no es phone
+Answer: Claro, puedo recomendarte el **Galaxy S20 FE 5G 256GB** de Samsung. Tiene una excelente cámara dual de 12 MP + 12 MP y una pantalla grande de 6.5 pulgadas. Además, su precio es de $454.990 CLP, por lo que se encuentra dentro de tu rango de presupuesto. Puedes encontrar más información sobre este teléfono en [este enlace](https://www.entel.cl/personas/equipos/detalle/samsung-galaxy-s20-fe-5g-256gb).
+Prompt: me gusta pero ahora si quiero que sea un iphone no importa si se pasa del rango de precios que te dije anteriormente
+Answer: ¡Claro que sí! Si estás buscando un iPhone con una buena cámara y una pantalla grande, te recomendaría el **iPhone 14 Pro Max**. Tiene una cámara dual de 48 MP + 12 MP y una pantalla de 67.0 pulgadas. Aunque su precio es de $1.884.990 CLP, es una excelente opción si estás dispuesto a invertir un poco más en un teléfono de alta gama. Puedes encontrar más información sobre el iPhone 14 Pro Max en [este enlace](https://www.entel.cl/personas/equipos/detalle/iphone-14-pro-max-1tb). Si tienes alguna otra pregunta, no dudes en hacerla. ¡Estoy aquí para ayudarte!
+Prompt: me sirve pero quiero otras alternativas, dame 3 telefonos similares
+Answer: ¡Claro que sí! Basado en tus preferencias de una buena cámara y una pantalla grande, te recomendaría los siguientes teléfonos:
+
+1. **Samsung Galaxy Z Flip 4 (5G) 256GB** - Marca: Samsung, Precio: $519.990 CLP, Almacenamiento: 256 GB, Pantalla: 6.7 pulgadas, Cámaras: Dual 12 MP + 12 MP, 10 megapixeles. Puedes encontrar más información sobre este teléfono [aquí](https://www.entel.cl/personas/equipos/detalle/samsung-galaxy-z-flip-4-5g-256gb).
+
+2. **Xiaomi 12 5G 256GB** - Marca: Xiaomi, Precio: $589.990 CLP, Almacenamiento: 256 GB, Pantalla: 6.28 pulgadas, Cámaras: Dual 50 MP + 13 MP, 5 megapixeles. Puedes encontrar más información sobre este teléfono [aquí](https://www.entel.cl/personas/equipos/detalle/xiaomi-12-5g-256gb).
+
+3. **Vivo Y55 5G 128GB** - Marca: Vivo, Precio: $214.990 CLP, Almacenamiento: 128 GB, Pantalla: 6.58 pulgadas, Cámaras: Dual 50 MP + 2 MP, 2 megapixeles. Puedes encontrar más información sobre este teléfono [aquí](https://www.entel.cl/personas/equipos/detalle/vivo-y55-5g-128gb).
+
+Estos teléfonos ofrecen una excelente calidad de cámara y una pantalla amplia para disfrutar de tus contenidos multimedia. ¡Espero que esta información te sea útil! Si tienes alguna otra pregunta, no dudes en hacerla.
+Prompt: okay me gusta la primera opcion que me diste, ahora dame un plan que me permita salir del pais por 3 dias 
+Answer: ¡Claro! Para tu viaje de 3 días al extranjero, te recomendaría el plan "Entel Viajero 3 días" que es perfecto para usuarios que necesitan estar conectados mientras están fuera de Chile por un corto período de tiempo. Este plan te ofrece 1GB de datos móviles para utilizar durante tus 3 días de viaje.
+
+El Samsung Galaxy Z Flip 4 (5G) 256GB es totalmente compatible con la red 5G de Entel, lo que te permitirá disfrutar de una conexión rápida y estable durante tu viaje. Puedes obtener más información sobre el plan "Entel Viajero 3 días" y activarlo en el siguiente enlace: [Plan Entel Viajero 3 días](https://www.entel.cl/personas/movil/planes/plan-viajero/)
+
+Recuerda que es importante verificar la cobertura y disponibilidad del servicio en el país al que viajarás. Si tienes alguna otra pregunta o necesitas más información, estaré encantado de ayudarte. ¡Que tengas un excelente viaje!
+Prompt: es muy caro, dame una opcion mas economica 
+Answer: ¡Claro que sí! Si estás buscando una opción más económica, te recomendaría el teléfono Redmi 9A 32GB de la marca Xiaomi. Tiene un precio de $44.990 CLP y cuenta con un almacenamiento de 32 GB. Además, tiene una pantalla de 6.53 pulgadas y una cámara de 13 MP. Puedes encontrar más información sobre este teléfono en el siguiente [enlace](https://www.entel.cl/personas/equipos/detalle/xiaomi-redmi-9a-32gb).
+Prompt: me gusta pero quiero uno que junto con el precio del telefono no superen los 300 mil
+Answer: Claro que sí, puedo recomendarte el **Telefono Redmi 9A 32GB** de la marca Xiaomi. Tiene un precio de $44.990 CLP, por lo que cumple con tu requerimiento de ser inferior a 300 mil. Además, cuenta con una cámara de 13 MP megapixeles, lo cual te permitirá tomar buenas fotografías, y una pantalla de 6.53 pulgadas, que es bastante amplia para disfrutar de tus contenidos multimedia. Puedes encontrar más información sobre este teléfono en el siguiente [enlace](https://www.entel.cl/personas/equipos/detalle/xiaomi-redmi-9a-32gb).
+Prompt: cambie de opinion dame un telefono con pantalla paqueña pero que me sirva para jugar juegos de gama alta
+Answer: ¡Claro que sí! Si estás buscando un teléfono con pantalla pequeña pero que pueda jugar juegos de gama alta, te recomendaría el **iPhone SE 5G 3a generación 128GB** de Apple. Tiene una pantalla de 4.7 pulgadas, lo cual lo hace compacto y fácil de manejar, pero no sacrifica el rendimiento. Con su capacidad 5G y su almacenamiento de 128GB, podrás disfrutar de una experiencia de juego fluida y almacenar todos tus juegos favoritos. Además, cuenta con una cámara de 12MP para capturar tus momentos especiales. Puedes encontrar más información sobre este teléfono en la página de [Entel](https://www.entel.cl/telefonia/iphone-se-5g-3a-generacion-128gb). ¡Espero que esta recomendación sea de tu agrado!
+Prompt: me gusta, ahora dame un plan que me permita llamar a mis amigos tanto como quiera
+Answer: ¡Claro que sí! Te recomendaría el Plan Libre Roaming Pro de Entel. Este plan te ofrece llamadas ilimitadas para que puedas comunicarte con tus amigos sin preocuparte por los minutos. Además, incluye un descuento de -$4.027 en el cargo fijo mensual del plan solo voz, lo que significa que solo pagarías $14.900 CLP al mes. Puedes encontrar más información sobre este plan en el siguiente enlace: [Plan Libre Roaming Pro](https://www.entel.cl/personas/planes-y-packs/plan-libre-roaming-pro/)
+Prompt: muchas gracias por tu ayuda, me sirvio mucho
+Answer: ¡Hola! Como ejecutivo de ventas de Entel, mi objetivo es brindarte la mejor ayuda posible. Si tienes alguna pregunta o necesitas más información, estaré encantado de ayudarte. Recuerda que mi conocimiento se basa en los productos y planes que se encuentran en el catálogo de Entel.
+Prompt: exit
+Adiós!
+Tiempos de respuesta:  [6, 7, 9, 19, 11, 6, 8, 9, 7, 4]
+Promedio de respuesta:  8.6
+
+-------------------------------------------
+
+CBWM:
+
+
+----------------------------------------------
+¡Bienvenido al ChatBot de Entel!
+----------------------------------------------
+Prompt: Holaa quiero un telefono el cual me permita tomar buenas fotos y que tenga  una pantalla grande
+Answer: ¡Hola! Para tomar buenas fotos y tener una pantalla grande, te recomendaría el **Galaxy S23 Ultra 5G 512GB** de Samsung. Tiene una cámara dual de 200 MP + 10 MP que te permitirá capturar fotos de alta calidad, y su pantalla de 6.8 pulgadas te brindará una experiencia visual inmersiva. Puedes encontrar más información sobre este teléfono en el siguiente [enlace](https://www.entel.cl/personas/equipos-y-accesorios/detalle/samsung-galaxy-s23-ultra-5g-512gb). ¿Hay algo más en lo que pueda ayudarte?
+Prompt: pero no quiero que tenga un precio economico entre los 100 mil y 200 mil, no importa si no es phone
+Answer: Claro, puedo recomendarte el **Telefono Galaxy S20 FE 5G 256GB** de la marca Samsung. Tiene una excelente calidad de cámara con una configuración de Dual 12 MP + 12 MP y una resolución de 8 megapíxeles. Además, cuenta con una pantalla grande de 6.5 pulgadas, perfecta para disfrutar de tus fotos y videos. Su precio es de $454.990 CLP. Puedes encontrar más información sobre este teléfono en [este enlace](https://www.entel.cl/personas/equipos/detalle/samsung-galaxy-s20-fe-5g-256gb).
+Prompt: me gusta pero ahora si quiero que sea un iphone no importa si se pasa del rango de precios que te dije anteriormente
+Answer: ¡Claro que sí! Te recomendaría el **iPhone 14 Plus 256GB** de la marca Apple. Tiene una excelente cámara dual de 12 MP + 12 MP, lo que te permitirá tomar fotos de alta calidad. Además, cuenta con una pantalla de 67.0 pulgadas, lo que te brindará una experiencia visual inmersiva. Puedes encontrar más información sobre este teléfono en el siguiente [enlace](https://www.entel.cl/personas/equipos/detalle/iphone-14-plus-256gb).
+Prompt: me sirve pero quiero otras alternativas, dame 3 telefonos similares
+Answer: ¡Claro que sí! Si estás buscando teléfonos similares al iPhone 14 Plus 256GB de Apple, te puedo recomendar los siguientes:
+
+1. **Samsung Galaxy S23+ 5G 256GB**: Este teléfono de Samsung tiene un almacenamiento de 256GB, una pantalla de 6.6 pulgadas y cámaras duales de 50MP + 10MP. Puedes encontrar más información [aquí](https://www.entel.cl/personas/equipos/detalle/samsung-galaxy-s23-plus-5g-256gb).
+
+2. **Vivo V20 & Audífonos TWS Neo Sunset Melody**: Este teléfono de Vivo cuenta con 128GB de almacenamiento, una pantalla de 6.4 pulgadas y cámaras duales de 64MP + 8MP. Además, viene con audífonos TWS Neo Sunset Melody. Puedes encontrar más información [aquí](https://www.entel.cl/personas/equipos/detalle/vivo-v20-audifonos-tws-neo-sunset-melody).
+
+3. **Samsung Galaxy S22+ 5G 128GB Seminuevo**: Si estás buscando una opción más económica, este teléfono seminuevo de Samsung puede ser una buena opción. Tiene 128GB de almacenamiento, una pantalla de 6.6 pulgadas y cámaras duales de 50MP + 12MP. Puedes encontrar más información [aquí](https://www.entel.cl/personas/equipos/detalle/samsung-galaxy-s22-plus-5g-128gb-seminuevo).
+
+Recuerda que estos son solo algunas opciones similares al iPhone 14 Plus 256GB de Apple. Si necesitas más información o tienes alguna otra pregunta, ¡no dudes en preguntar!
+Prompt: okay me gusta la primera opcion que me diste, ahora dame un plan que me permita salir del pais por 3 dias 
+Answer: ¡Claro que sí! Para tu viaje de 3 días al extranjero, te recomendaría el plan "Entel Roaming Internacional 3 días" que te brinda cobertura en más de 100 países. Este plan tiene un costo de $9.990 CLP y te permite disfrutar de 1GB de navegación en roaming, así como minutos y mensajes de texto ilimitados para que puedas estar conectado durante tu viaje.
+
+Este plan es compatible con el Samsung Galaxy S23+ 5G 256GB y te permitirá utilizar todas sus funciones sin problemas mientras estás en el extranjero. Puedes obtener más información sobre este plan y activarlo en el siguiente enlace: [Plan Entel Roaming Internacional 3 días](https://www.entel.cl/personas/planes-y-packs/roaming-internacional/)
+
+Recuerda que es importante verificar la cobertura y disponibilidad del servicio en el país al que viajarás. Si tienes alguna otra pregunta o necesitas más información, no dudes en preguntar. ¡Estoy aquí para ayudarte!
+Prompt: es muy caro, dame una opcion mas economica 
+Answer: ¡Claro que sí! Para tu viaje de 3 días al extranjero, te recomendaría el Plan Libre Roaming Pro de Entel. Este plan te ofrece una excelente opción para mantener la comunicación durante tu viaje sin preocuparte por los costos excesivos.
+
+El Plan Libre Roaming Pro tiene un cargo fijo mensual de $14.900 CLP para el servicio de voz y $39.900 CLP para el servicio de datos. Sin embargo, actualmente cuenta con un descuento de -$4.027 CLP para el servicio de voz y -$10.783 CLP para el servicio de datos. Esto significa que solo pagarías $54.800 CLP en total por los cargos fijos.
+
+Además, este plan te brinda la posibilidad de disfrutar de los beneficios del roaming internacional, lo que te permitirá utilizar tu teléfono en el extranjero sin preocuparte por los costos adicionales. Puedes obtener más información sobre el Plan Libre Roaming Pro y sus beneficios en el siguiente enlace: [Plan Libre Roaming Pro](https://www.entel.cl/personas/planes/plan-libre-roaming-pro/)
+
+Recuerda que es importante verificar la cobertura y los países incluidos en el plan antes de tu viaje. Si tienes alguna otra pregunta o necesitas más información, ¡no dudes en preguntar! Estoy aquí para ayudarte.
+Prompt: me gusta pero quiero uno que junto con el precio del telefono no superen los 300 mil
+Answer: Claro, puedo ayudarte con eso. Para un teléfono que se ajuste a tu presupuesto, te recomendaría el **Telefono Redmi 9A 32GB** de la marca Xiaomi. Tiene un precio de $44.990 CLP y cuenta con un almacenamiento de 32 GB, una pantalla de 6.53 pulgadas y una cámara de 13 MP. Puedes encontrar más información sobre este teléfono [aquí](https://www.entel.cl/personas/equipos/detalle/xiaomi-redmi-9a).
+
+En cuanto al plan de roaming internacional, te recomendaría el **Plan Libre Roaming**. Tiene un cargo fijo mensual de $29.990 CLP e incluye voz y datos en roaming internacional. Puedes obtener más detalles sobre este plan [aquí](https://www.entel.cl/personas/planes/plan-libre-roaming).
+
+Con el precio del teléfono y el plan de roaming, estarías dentro de tu presupuesto de 300 mil pesos. Si tienes alguna otra pregunta, no dudes en hacerla.
+Prompt: cambie de opinion dame un telefono con pantalla paqueña pero que me sirva para jugar juegos de gama alta
+Answer: Claro, puedo recomendarte el **iPhone SE 5G 3a generación 128GB** de Apple. Tiene una pantalla de 4.7 pulgadas, lo cual lo hace más compacto y fácil de manejar, pero aún así cuenta con un rendimiento potente para juegos de gama alta gracias a su tecnología 5G y su procesador A14 Bionic. Además, tiene un almacenamiento de 128GB para que puedas descargar y disfrutar de tus juegos favoritos sin preocuparte por el espacio. Puedes encontrar más información sobre este teléfono en el siguiente [enlace](https://www.entel.cl/personas/equipos/detalle/iphone-se-5g-3a-generacion-128gb).
+Prompt: me gusta, ahora dame un plan que me permita llamar a mis amigos tanto como quiera
+Answer: ¡Claro que sí! En Entel contamos con varios planes que te permiten realizar llamadas ilimitadas a tus amigos. Te recomendaría el Plan Libre Roaming Pro, que tiene un cargo fijo mensual de $14.900 CLP. Este plan incluye llamadas ilimitadas y también cuenta con descuentos que reducen el cargo fijo mensual a $10.783 CLP. Puedes encontrar más información sobre este plan en el siguiente [enlace](https://www.entel.cl/personas/telefonia-movil/planes/plan-libre-roaming-pro/).
+Prompt: muchas gracias por tu ayuda, me sirvio mucho
+Answer: Sí, estoy aquí para ayudarte en lo que necesites. ¿Hay algo más en lo que pueda asistirte?
+Prompt: exit
+Adiós!
+Tiempos de respuesta:  [6, 8, 6, 17, 14, 13, 11, 8, 7, 3]
+Promedio de respuesta:  9.3
+
+
+--------------------------------------------
+
+
+CSBM:
+
+//le dio la maña otra vez
+
+----------------------------------------------
+¡Bienvenido al ChatBot de Entel!
+----------------------------------------------
+Prompt: Holaa quiero un telefono el cual me permita tomar buenas fotos y que tenga  una pantalla grande
+Answer: ¡Hola! Si estás buscando un teléfono con una buena cámara y una pantalla grande, te recomendaría el **Galaxy S23 Ultra 5G 512GB** de Samsung. Tiene una cámara dual de 200 MP + 10 MP, lo que te permitirá tomar fotos de alta calidad, y su pantalla de 6.8 pulgadas te brindará una experiencia visual inmersiva. Puedes encontrar más información sobre este teléfono en el siguiente [enlace](https://www.entel.cl/personas/equipos-y-accesorios/detalle/samsung-galaxy-s23-ultra-5g-512gb). ¿Hay algo más en lo que pueda ayudarte?
+Prompt: pero no quiero que tenga un precio economico entre los 100 mil y 200 mil, no importa si no es phone
+Answer: Claro, puedo recomendarte el Teléfono Galaxy S20 FE 5G 256GB de la marca Samsung. Tiene una excelente cámara dual de 12 MP + 12 MP y una pantalla grande de 6.5 pulgadas. Además, su precio es de $454.990 CLP, dentro del rango que estás buscando. Puedes encontrar más información sobre este teléfono en el siguiente [enlace](https://www.entel.cl/personas/equipos-y-accesorios/detalle/samsung-galaxy-s20-fe-5g-256gb/).
+Prompt: me gusta pero ahora si quiero que sea un iphone no importa si se pasa del rango de precios que te dije anteriormente
+Answer: ¡Claro que sí! Si estás buscando un iPhone con una buena cámara y una pantalla grande, te recomendaría el **iPhone 14 Pro Max**. Tiene una cámara dual de 48 MP + 12 MP, lo que te permitirá tomar fotos de alta calidad, y una pantalla de 67.0 pulgadas para disfrutar de una experiencia visual inmersiva. El precio de este modelo es de $1.884.990 CLP. Puedes encontrar más información sobre este teléfono en el siguiente [enlace](https://www.entel.cl/telefonia/iphone-14-pro-max-1tb). ¡Espero que esta recomendación sea de tu agrado!
+Prompt: me sirve pero quiero otras alternativas, dame 3 telefonos similares
+Answer: ¡Claro que sí! Aquí te presento tres alternativas de teléfonos similares al iPhone 14 Pro Max con una buena cámara y una pantalla grande:
+
+1. Samsung Galaxy S21 Ultra: Este teléfono cuenta con una cámara de alta calidad y una pantalla de 6.8 pulgadas. Puedes encontrar más información sobre este teléfono [aquí](https://www.entel.cl/personas/equipos/detalle/samsung-galaxy-s21-ultra).
+
+2. Xiaomi Mi 11 Ultra: Este teléfono también ofrece una excelente cámara y una pantalla de 6.81 pulgadas. Puedes encontrar más información sobre este teléfono [aquí](https://www.entel.cl/personas/equipos/detalle/xiaomi-mi-11-ultra).
+
+3. Vivo X60 Pro+: Este teléfono cuenta con una cámara de alta calidad y una pantalla de 6.56 pulgadas. Puedes encontrar más información sobre este teléfono [aquí](https://www.entel.cl/personas/equipos/detalle/vivo-x60-pro-plus).
+
+Estas son tres opciones que podrían interesarte. Si necesitas más información o tienes alguna otra pregunta, no dudes en decírmelo. ¡Estoy aquí para ayudarte!
+Prompt: okay me gusta la primera opcion que me diste, ahora dame un plan que me permita salir del pais por 3 dias 
+Answer: ¡Claro que sí! Para tu Samsung Galaxy S21 Ultra, te recomendaría el Plan Entel Libre 100GB. Este plan te brinda una gran cantidad de datos para que puedas disfrutar de tus aplicaciones favoritas mientras estás en el extranjero. Además, incluye minutos y mensajes ilimitados, por lo que podrás estar en contacto con tus seres queridos sin preocuparte por los cargos adicionales. Puedes obtener más información sobre este plan en el siguiente enlace: [Plan Entel Libre 100GB](https://www.entel.cl/personas/planes-y-packs/plan-entel-libre-100gb/)
+
+Recuerda que es importante verificar la disponibilidad del plan en tu área y los requisitos específicos para utilizarlo en el extranjero. Si tienes alguna otra pregunta, ¡no dudes en hacerla! Estoy aquí para ayudarte.
+Prompt: es muy caro, dame una opcion mas economica 
+Answer: ¡Claro que sí! Para tu Samsung Galaxy S21 Ultra, te recomendaría el Plan Control 15GB de Entel. Este plan te ofrece 15GB de internet móvil, minutos ilimitados para llamadas y SMS ilimitados. Además, incluye Roaming Internacional para que puedas utilizar tu teléfono fuera de Chile durante tus 3 días de viaje. El precio mensual de este plan es de $15.990 CLP.
+
+Puedes encontrar más información sobre el Plan Control 15GB y contratarlo en el siguiente enlace: [Plan Control 15GB](https://www.entel.cl/personas/planes-y-packs/plan-control-15gb/)
+
+Recuerda que es importante verificar la cobertura y disponibilidad del servicio en el lugar al que viajarás. Si tienes alguna otra pregunta, ¡estaré encantado de ayudarte!
+Prompt: me gusta pero quiero uno que junto con el precio del telefono no superen los 300 mil
+Answer: Claro que sí, puedo recomendarte el siguiente teléfono:
+
+- **Samsung Galaxy S22+ 5G 128GB Seminuevo**
+  - Marca: Samsung
+  - Precio: $289.990 CLP
+  - Almacenamiento: 128 GB
+  - Pantalla: 6.6 pulgadas
+  - Cámaras: Dual 50 MP + 12 MP (10 megapíxeles)
+
+Este teléfono cuenta con una excelente cámara y una pantalla grande, ideal para capturar fotos y videos de alta calidad. Además, al ser seminuevo, tiene un precio más accesible. 
+
+En cuanto al plan, te recomendaría el **Plan Entel Pro 2GB**, que tiene un costo de $19.990 CLP mensuales. Con este plan, tendrás 2GB de navegación, minutos y mensajes ilimitados, y acceso a redes sociales sin gastar tus datos.
+
+El costo total del plan por un año sería de $239.880 CLP, sumado al precio del teléfono, estarías dentro de tu presupuesto de $300.000 CLP.
+
+Puedes encontrar más información sobre el teléfono y el plan en los siguientes enlaces:
+
+- Teléfono Galaxy S22+ 5G 128GB Seminuevo: [Enlace al teléfono](https://www.entel.cl/personas/equipos-y-accesorios/detalle/samsung-galaxy-s22-plus-5g-seminuevo)
+- Plan Entel Pro 2GB: [Enlace al plan](https://www.entel.cl/personas/planes-y-packs/plan-pro-2gb)
+
+Si tienes alguna otra pregunta o necesitas más información, estaré encantado de ayudarte.
+Prompt: cambie de opinion dame un telefono con pantalla paqueña pero que me sirva para jugar juegos de gama alta
+Answer: Claro, puedo recomendarte el **iPhone SE 5G 3a generación 128GB** de Apple. Tiene una pantalla de 4.7 pulgadas, lo cual lo hace más compacto y fácil de manejar, pero aún así cuenta con un rendimiento potente para jugar juegos de gama alta. Además, tiene un almacenamiento de 128 GB, lo cual te permitirá descargar y almacenar varios juegos sin problemas. Puedes encontrar más información sobre este teléfono en el siguiente [enlace](https://www.entel.cl/personas/equipos/detalle/iphone-se-5g-3a-generacion-128gb).
+Prompt: me gusta, ahora dame un plan que me permita llamar a mis amigos tanto como quiera
+Answer: ¡Claro que sí! Te recomendaría el Plan Libre Roaming Pro de Entel. Este plan te ofrece llamadas sin restricciones a tus amigos y además incluye roaming internacional para que puedas estar conectado incluso cuando viajes. El cargo fijo mensual del plan solo voz es de $14.900 CLP, pero con los descuentos aplicados, el total de cargos fijos es de $54.800 CLP. Puedes obtener más información sobre este plan en el siguiente enlace: [Plan Libre Roaming Pro](https://www.entel.cl/personas/telefonia-movil/planes/plan-libre-roaming-pro/)
+Prompt: muchas gracias por tu ayuda, me sirvio mucho
+Answer: ¡Hola! Soy un ejecutivo de ventas de Entel en Chile y estoy aquí para ayudarte. ¿En qué puedo asistirte hoy?
+Prompt: exit
+Adiós!
+Tiempos de respuesta:  [6, 7, 8, 13, 9, 9, 19, 10, 12, 7]
+Promedio de respuesta:  10.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------
+
+Tiempos 
+
+CBM:
+Tiempos de respuesta:  [6, 7, 9, 18, 9, 9, 11, 10, 7, 3]
+Promedio de respuesta:  8.9
+
+ZM:
+Tiempos de respuesta:  [6, 7, 9, 19, 11, 6, 8, 9, 7, 4]
+Promedio de respuesta:  8.6
+
+CBWM:
+Tiempos de respuesta:  [6, 8, 6, 17, 14, 13, 11, 8, 7, 3]
+Promedio de respuesta:  9.3
+
+CSBM:
+Tiempos de respuesta:  [6, 7, 8, 13, 9, 9, 19, 10, 12, 7]
+Promedio de respuesta:  10.0
+
+
+
+
+
+
+
