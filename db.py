@@ -8,13 +8,6 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings.openai import OpenAIEmbeddings
 from dotenv import load_dotenv
 
-#Chroma
-__import__('pysqlite3')
-# se usa modulo pysqlite3 para el uso de chroma
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
-import chromadb
-from langchain.vectorstores import Chroma
-
 #Weaviate
 from langchain.vectorstores import Weaviate
 import weaviate
@@ -60,16 +53,25 @@ def weaviateDB(): #BASE DE DATOS WEAVIATE
     print(client.data_object.get())
     return db
 
-def chromaDB(): #BASE DE DATOS CHROMA
-    client = chromadb.PersistentClient(path="chroma/")
-    collection = client.get_or_create_collection(name="docs") 
-    print(collection)
-    for doc in docs:
-        collection.add(
-            ids=[str(uuid.uuid1())], metadatas=doc.metadata, documents=doc.page_content
-        )
-    db = Chroma(client=client, collection_name="docs", embedding_function=embeddings)
-    #db = Chroma.from_documents(docs, embeddings)
+def weaviateDB2():
+    # Crear un cliente Weaviate
+    client = weaviate.Client(
+        url=os.environ['WEAVIATE-URL'],
+        auth_client_secret=weaviate.AuthApiKey(api_key= os.environ['WEAVIATE-API-KEY']), 
+    )
+
+    # Obtener los nombres de los índices
+    index_names = client.get_index_names()
+
+    # Si el índice no existe, crearlo
+    index_name = "chatbot"
+    if index_name not in index_names:
+        client.create_index(index_name, fields=["text"])
+        data = docs
+        db = Weaviate.from_documents(data, embeddings, client=client, by_text=False)
+    else:
+        db = weaviate.from_indices([index_name], client=client, by_text=False)
+
     return db
 
 def milvusDB(): #BASE DE DATOS MILVUS
@@ -102,11 +104,6 @@ def faissDB(): #BASE DE DATOS FAISS
     #os.environ['FAISS_NO_AVX2'] = '1'
     db = FAISS.from_documents(docs, embeddings)
     return db
-
-
-faissDB()
-
-
 
 
 
