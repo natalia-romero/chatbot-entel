@@ -1,42 +1,40 @@
+import time
 from main import *
 
 st.set_page_config(page_title="ChatBot Entel", page_icon="📱")
 st.title("📱ChatBot Entel")
+st.caption('¡Hola! Bienvenido al chat de Entel. Todas las dudas respecto a nuestro catalogo las puedes realizar aquí.')
+st.session_state.conversation = qa
 
-def conversational_chat(query):
-    result = qa({"question": query, "chat_history": st.session_state['history']})
-    st.session_state['history'].append((query, result["answer"]))
-    return result["answer"]
-
-# Initialize chat history
 if 'history' not in st.session_state:
     st.session_state['history'] = []
 
- # Initialize messages
-if 'generated' not in st.session_state:
-    st.session_state['generated'] = ["¡Hola! Bienvenido al chat de Entel. ¿En que te puedo ayudar?"]
+if "messages" not in st.session_state:
+    st.session_state.messages = []
 
-if 'past' not in st.session_state:
-    st.session_state['past'] = ["Hola!"]
-# Create containers for chat history and user input
-response_container = st.container()
-container = st.container()
+for message in st.session_state.messages:
+    with st.chat_message(message["role"]):
+        st.markdown(message["content"])
 
-# User input form
-with container:
-    with st.form(key='my_form', clear_on_submit=True):
-        user_input = st.text_input("Pregunta:", placeholder="¿En que te puedo ayudar?", key='input')
-        submit_button = st.form_submit_button(label='Enviar')
-
-    if submit_button and user_input:
-        with st.spinner(text="Pensando..."):
-            output = conversational_chat(user_input)
-            st.session_state['past'].append(user_input)
-            st.session_state['generated'].append(output)
-
-# Display chat history
-if st.session_state['generated']:
-    with response_container:
-        for i in range(len(st.session_state['generated'])):
-            st.markdown(message(st.session_state["past"][i], is_user=True, key=str(i) + '_user', avatar_style="fun-emoji", seed="Aneka", allow_html=False))
-            st.markdown(message(st.session_state["generated"][i], key=str(i), avatar_style="bottts", seed="Aneka",allow_html=False))
+if 'disabled' not in st.session_state:
+            st.session_state.disabled = False
+            
+if prompt := st.chat_input("¿En que te puedo ayudar?"):
+    st.chat_input("Se está generando la respuesta, por favor espere...", key="disabled_chat_input", disabled=True)
+    st.session_state.messages.append({"role": "user", "content": prompt})
+    with st.chat_message("user"):
+        st.markdown(prompt)
+    with st.chat_message("assistant"):
+        message_placeholder = st.empty()
+        full_response = ""
+        with st.spinner('🧠 Pensando...'):
+            result = qa({"question": prompt, "chat_history": st.session_state['history']})
+            assistant_response = result["answer"].replace('$',' $ ')
+        for chunk in assistant_response.split(' '):
+                full_response += chunk + " "
+                time.sleep(0.05)
+                message_placeholder.markdown(full_response + "|")
+                message_placeholder.markdown(full_response)
+        st.session_state['history'].append((prompt, result["answer"]))
+        st.session_state.messages.append({"role": "assistant", "content":  result["answer"]})
+        st.experimental_rerun()
