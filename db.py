@@ -25,8 +25,19 @@ from langchain.vectorstores import FAISS
 load_dotenv()
 
 # LEER ARCHIVOS CSV
-def getDataFrame(doc):  # función CSV a DataFrame
+def getDataFrame(doc):
+    # Leer el archivo CSV
     df = pd.read_csv(doc)
+
+    # Verificar y rellenar filas para tener al menos 240 caracteres
+    for index, row in df.iterrows():
+        fila_completa = ''.join(map(str, row))  # Concatenar todos los elementos de la fila
+        if len(fila_completa) < 300:
+            # Calcular cuántos espacios necesarios
+            espacios_necesarios = 300 - len(fila_completa)
+            # Rellenar la última columna con espacios
+            df.at[index, df.columns[-1]] = str(row[df.columns[-1]]) + ' ' * espacios_necesarios
+
     return df
 planes = getDataFrame("docs/planes.csv")
 telefonos = getDataFrame("docs/telefonos.csv")
@@ -34,8 +45,21 @@ telefonos = getDataFrame("docs/telefonos.csv")
 # CARGAR DOCUMENTOS
 loader = DirectoryLoader('docs/', glob="**/*.csv") #  glob="**/*.csv"
 documents = loader.load()
-text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
-docs = text_splitter.split_documents(documents) #milvus
+text_splitter = RecursiveCharacterTextSplitter(
+    chunk_size = 300, # tamaño máximo de cada fragmento
+    chunk_overlap  = 0, # cantidad de superposición permitida entre fragmentos
+    length_function = len,
+    is_separator_regex = False, # expresiones regulares
+)
+docs = text_splitter.split_documents(documents) 
+
+# Iterar sobre los documentos e imprimir cada dato por separado
+for document in docs:
+    print("Documento:")
+    for data_point in document:
+        for data_item in data_point:
+            print(data_item)
+    print("-" * 20)  # Separador entre documentos (opcional)
 embeddings = OpenAIEmbeddings()
 
 # BASES DE DATOS - SE CREA CONEXIÓN Y SE DEBE RETORNAR VECTORSTORE 
@@ -87,6 +111,7 @@ def pineconeDB(): #BASE DE DATOS PINECONE
         api_key=os.getenv("PINECONE_API_KEY"),  # find at app.pinecone.io
         environment=os.getenv("PINECONE_ENV"),  # next to api key in console
     )
+    pinecone.delete_index('chatbot')
     index = 'chatbot'
     indexes = pinecone.list_indexes()
     if index not in indexes:
