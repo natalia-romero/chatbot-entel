@@ -1,6 +1,6 @@
 import time
 from main import *
-
+print(qa)
 st.set_page_config(page_title="ChatBot Entel", page_icon="📱")
 st.title("📱ChatBot Entel")
 st.caption('¡Hola! Bienvenido al chat de Entel. Todas las dudas respecto a nuestro catalogo las puedes realizar aquí.')

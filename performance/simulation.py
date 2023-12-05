@@ -1,6 +1,6 @@
 import datetime
 import time
-from chats import *
+from performance.chats import *
 from main import *
 
 x = 0

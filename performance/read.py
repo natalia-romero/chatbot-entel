@@ -1,23 +1,6 @@
 import re
 import matplotlib.pyplot as plt
-archivo_entrada = 'time.txt'
-
-
-avg = []
-# Abre el archivo de entrada en modo lectura y el archivo de salida en modo escritura
-with open(archivo_entrada, 'r') as entrada:
-    for linea in entrada:
-        matches = re.search(r'\[([\d,\s]+)\] - Promedio: ([\d.]+)', linea)
-        if matches:
-            lista_de_numeros = [int(num) for num in matches.group(1).split(',')]
-            promedio = float(matches.group(2))
-            print("Promedio:", promedio)
-            avg.append(promedio)
-print(avg)
-import re
-import matplotlib.pyplot as plt
-
-archivo_entrada = 'time.txt'
+archivo_entrada = 'test/time.txt'
 
 avg = []
 
@@ -31,7 +14,7 @@ with open(archivo_entrada, 'r') as entrada:
 
 # Crear una lista de índices para los valores en avg
 indices = range(len(avg))
-
+plt.rcParams['font.family'] = 'serif'
 # Crear un gráfico de líneas
 plt.plot(indices, avg, marker='o', linestyle='-', color='darkblue')
 
