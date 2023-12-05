@@ -4,7 +4,7 @@ import csv
 from bs4 import BeautifulSoup
 
 # Archivo destino
-archivo_csv = "csv/telefonos.csv"
+archivo_csv = "csv/phones.csv"
 headers = ["marca", "nombre", "precio", "almacenamiento", "pantalla", "camara"]
 
 # Request HTTP
