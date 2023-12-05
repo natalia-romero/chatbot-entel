@@ -1,6 +1,5 @@
 import datetime
 from main import *
-
 chat_history = []
 
 yellow = "\033[0;33m"
@@ -11,7 +10,7 @@ print('¡Bienvenido al ChatBot de Entel!')
 print('----------------------------------------------')
 time = []
 while True:
-    query = input(f"{green}Prompt: ")
+    query = input(f"{green}Pregunta: ")
     if query == "exit" or query == "quit" or query == "q" or query == "f":
         print('Adiós!')
         print("Tiempos de respuesta: ",time)
@@ -24,5 +23,5 @@ while True:
     later_time = datetime.datetime.now()
     delta = int((later_time - first_time).total_seconds())
     time.append(delta)
-    print(f"{white}Answer: " + result["answer"])
+    print(f"{white}Respuesta: " + result["answer"])
     chat_history.append((query, result["answer"]))

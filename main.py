@@ -16,7 +16,7 @@ QA_PROMPT = (Path("docs/prompt.txt").read_text()).strip()
 prompt = ChatPromptTemplate.from_template(QA_PROMPT)
 con_prompt = PromptTemplate.from_template(CONDENSE_PROMPT)     
 
-vectorstore = weaviateDB() #seleccionar db (weaviateDB, faissDB, pineconeDB o milvusDB)
+vectorstore = pineconeDB() #seleccionar db (weaviateDB, faissDB, pineconeDB o milvusDB)
 
 memory = CBM() #seleccionar memoria (CBM, ZM, CBWM o CSBM)
 
