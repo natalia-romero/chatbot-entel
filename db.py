@@ -34,19 +34,19 @@ def getDataFrame(doc):
         fila_completa = ''.join(map(str, row))  # Concatenar todos los elementos de la fila
         if len(fila_completa) < 300:
             # Calcular cuántos espacios necesarios
-            espacios_necesarios = 300 - len(fila_completa)
+            espacios_necesarios = 300 - len(fila_completa)-6
             # Rellenar la última columna con espacios
-            df.at[index, df.columns[-1]] = str(row[df.columns[-1]]) + ' ' * espacios_necesarios
+            df.at[index, df.columns[-1]] = str(row[df.columns[-1]]) + '.' * espacios_necesarios
 
     return df
 planes = getDataFrame("docs/planes.csv")
-telefonos = getDataFrame("docs/telefonos.csv")
+telefonos = getDataFrame("phones.csv")
 
 # CARGAR DOCUMENTOS
-loader = DirectoryLoader('docs/', glob="**/*.csv") #  glob="**/*.csv"
+loader = DirectoryLoader('csv/', glob="**/*.csv") #  glob="**/*.csv"
 documents = loader.load()
 text_splitter = RecursiveCharacterTextSplitter(
-    chunk_size = 300, # tamaño máximo de cada fragmento
+    chunk_size = 600, # tamaño máximo de cada fragmento
     chunk_overlap  = 0, # cantidad de superposición permitida entre fragmentos
     length_function = len,
     is_separator_regex = False, # expresiones regulares
@@ -61,6 +61,7 @@ for document in docs:
             print(data_item)
     print("-" * 20)  # Separador entre documentos (opcional)
 embeddings = OpenAIEmbeddings()
+
 
 # BASES DE DATOS - SE CREA CONEXIÓN Y SE DEBE RETORNAR VECTORSTORE 
 
